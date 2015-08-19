@@ -19,31 +19,31 @@ plt.hist(M.trace('reprho')[:])
 plt.xlim(0,1)
 
 plt.title('repulsion strength')
-plt.show()
-plt.savefig('repulsion_strength.png')
 
+plt.savefig('repulsion_strength.png')
+plt.show()
 plt.hist(M.trace('attrho')[:])
 plt.xlim(0,1)
 
 plt.title('attraction strength')
-plt.show()
-plt.savefig('attraction_strength.png')
 
+plt.savefig('attraction_strength.png')
+plt.show()
 plt.hist(M.trace('replen')[:])
 plt.xlim(0,5)
 plt.title('repulsion length')
 
 
-plt.show()
-plt.savefig('repulsion_length.png')
 
+plt.savefig('repulsion_length.png')
+plt.show()
 plt.hist(M.trace('eta')[:])
 plt.xlim(0,1)
 
 plt.title('autocorrelation')
-plt.show()
-plt.savefig('autocorrelation.png')
 
+plt.savefig('autocorrelation.png')
+plt.show()
 
 #show()
 
